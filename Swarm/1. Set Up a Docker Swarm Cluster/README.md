@@ -15,7 +15,7 @@
     [Visual Aid showing created VMs on Azure]
     ### A. Steps in Creating 3 VMs using Azure CLI
 
-        1. **Login to your azure account.** 
+        **1. Login to your azure account.** 
             $ az login
         
         2. **Create a resource group.** 
