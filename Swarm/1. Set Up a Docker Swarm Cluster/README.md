@@ -27,6 +27,10 @@
 
     I used the highlighted command to join **WorkerNode** and **WorkerNode2** into the swarm;
 
+    **NOTE**: If the highlighted command above is not available, the type the following:
+
+        $ docker swarm join-token worker
+
     ![Alt text](image-1.png)
 
     We now have a 3-Node Swarm.
