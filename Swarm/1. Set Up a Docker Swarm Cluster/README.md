@@ -17,7 +17,19 @@
 
 2. ## Add nodes (VMs) to the Swarm
 
-    [Commands and Visual Aid]
+    In the **ManagerNode** I typed the following to initialize the Swarm:
+
+        $ docker swarm init
+
+    This was the result:
+
+    ![Alt text](image.png)
+
+    I used the highlighted command to join **WorkerNode** and **WorkerNode2** into the swarm;
+
+    ![Alt text](image-1.png)
+
+    We now have a 3-Node Swarm.
 
 3. ## Deploy application services to the Swarm
 
