@@ -37,9 +37,11 @@
 
 3. ## Deploy application services to the Swarm
 
-    Now I'll be deploying a **service** to the Swarm bu running the command below in the **MananagerNode**:
+    Now I'll be deploying a **service** to the Swarm bu running the command below in the **MananagerNode** and then the second command will list the services in the Swarm:
 
         $ docker service create --replicas 1 --name helloworld alpine ping docker.com
+
+        $ docker service ls
 
     ![Alt text](image-2.png)
 
