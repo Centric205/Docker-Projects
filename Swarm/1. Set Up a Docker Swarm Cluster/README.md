@@ -41,7 +41,7 @@
 
         $ docker service create --replicas 1 --name helloworld alpine ping docker.com
 
-        ![Alt text](image-2.png)
+    ![Alt text](image-2.png)
 
 
 4. ## Manage the Swarm once you have everything running
