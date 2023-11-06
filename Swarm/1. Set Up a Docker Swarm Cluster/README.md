@@ -27,7 +27,7 @@
 
     I used the highlighted command to join **WorkerNode** and **WorkerNode2** into the swarm;
 
-    **NOTE**: If the highlighted command above is not available, the type the following:
+    **NOTE**: If the highlighted command above is not available, then type the following:
 
         $ docker swarm join-token worker
 
@@ -37,7 +37,11 @@
 
 3. ## Deploy application services to the Swarm
 
-    [Commands and Visual Aid]
+    Now I'll be deploying a **service** to the Swarm bu running the command below in the **MananagerNode**:
+
+        $ docker service create --replicas 1 --name helloworld alpine ping docker.com
+
+        ![Alt text](image-2.png)
 
 
 4. ## Manage the Swarm once you have everything running
