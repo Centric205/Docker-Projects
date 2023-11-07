@@ -37,7 +37,7 @@
 
 3. ## Deploy application services to the Swarm
 
-    Now I'll be deploying a **service** to the Swarm bu running the command below in the **MananagerNode** and then the second command will list the services in the Swarm:
+    Now I'll be deploying a **service** to the Swarm by running the first command below in the **MananagerNode** and then the second command will list the services in the Swarm:
 
         $ docker service create --replicas 1 --name helloworld alpine ping docker.com
 
@@ -48,4 +48,10 @@
 
 4. ## Manage the Swarm once you have everything running
 
-    [Commands and visual aid]
+    Once a service has been deployed on the swarm, we can scale it by running the command below:
+
+        $ docker service scale helloworld=5
+
+    This creates 4 new tasks to scale to a total of 5 running instances of *Alpine*.
+
+    ![Alt text](image-3.png)
